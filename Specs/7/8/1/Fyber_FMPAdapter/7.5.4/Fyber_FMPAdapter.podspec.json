@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "Fyber_Marketplace_SDK": [
-      "7.5.4"
+      "0.9.3"
     ]
   }
 }

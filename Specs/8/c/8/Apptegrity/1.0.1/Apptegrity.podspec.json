@@ -19,7 +19,7 @@
   },
   "source_files": "Apptegrity/**/*.{h,m,swift}",
   "ios": {
-    "resources": "Apptegrity/Resources/*.{json,xcassets,strings}"
+    "resources": "Apptegrity/Resources/*.{json,xcassets,strings,xib}"
   },
   "swift_version": "4.2"
 }

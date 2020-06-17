@@ -5,14 +5,14 @@
   "homepage": "http://netease.im",
   "license": {
     "type": "Copyright",
-    "text": " Copyright 2019 Netease "
+    "text": " Copyright 2020 Netease "
   },
   "authors": "Netease IM Team",
   "source": {
     "http": "http://yx-web.nos.netease.com/package/1583908481/NIM_iOS_SDK_v7.4.0.zip"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "vendored_frameworks": [
     "**/NIMSDK.framework",

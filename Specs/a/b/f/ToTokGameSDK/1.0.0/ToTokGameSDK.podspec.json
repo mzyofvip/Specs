@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "ToTokGame SDK for games",
   "description": "ToTokGame SDK for games\nConvenient game access",
-  "homepage": "https://github.com/ToTokGames/ToTokGameSDK",
+  "homepage": "https://github.com/ToTokGames/ToTokGameSDK-iOS",
   "license": {
     "type": "MIT"
   },
@@ -14,7 +14,7 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/ToTokGames/ToTokGameSDK.git",
+    "git": "https://github.com/ToTokGames/ToTokGameSDK-iOS.git",
     "tag": "1.0.0"
   },
   "requires_arc": true,
@@ -39,20 +39,20 @@
     "CoreTelephony",
     "Security"
   ],
-  "vendored_frameworks": "ToTokGameSDK/Core/ToTokGameSDK.framework",
+  "vendored_frameworks": "SDK/ToTokGameSDK/Core/ToTokGameSDK.framework",
   "resources": [
-    "ToTokGameSDK/Core/ToTokGame.bundle",
-    "ToTokGameSDK/Core/TTGCProgressHUD.bundle"
+    "SDK/ToTokGameSDK/Core/ToTokGame.bundle",
+    "SDK/ToTokGameSDK/Core/TTGCProgressHUD.bundle"
   ],
   "subspecs": [
     {
       "name": "Facebook",
-      "source_files": "ToTokGameSDK/SocialLibraries/Facebook",
+      "source_files": "SDK/ToTokGameSDK/SocialLibraries/Facebook",
       "pod_target_xcconfig": {
         "OTHER_LDFLAGS": "-lObjC"
       },
-      "vendored_libraries": "ToTokGameSDK/SocialLibraries/Facebook/libTTGCSocialFacebook.a",
-      "vendored_frameworks": "ToTokGameSDK/Core/ToTokGameSDK.framework",
+      "vendored_libraries": "SDK/ToTokGameSDK/SocialLibraries/Facebook/libTTGCSocialFacebook.a",
+      "vendored_frameworks": "SDK/ToTokGameSDK/Core/ToTokGameSDK.framework",
       "dependencies": {
         "FBSDKCoreKit": [
           "~> 5.13.1"
@@ -65,8 +65,8 @@
         ]
       },
       "resources": [
-        "ToTokGameSDK/Core/ToTokGame.bundle",
-        "ToTokGameSDK/Core/TTGCProgressHUD.bundle"
+        "SDK/ToTokGameSDK/Core/ToTokGame.bundle",
+        "SDK/ToTokGameSDK/Core/TTGCProgressHUD.bundle"
       ]
     }
   ]
